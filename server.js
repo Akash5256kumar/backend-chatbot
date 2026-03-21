@@ -6,6 +6,8 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import DataModel from "./models/Data.js";
 
+//ci/cd pipelines should set env vars, but for local development we can use a .env file
+
 dotenv.config();
 
 const app = express();
